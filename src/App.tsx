@@ -3,7 +3,7 @@
 import '@radix-ui/themes/styles.css';
 import './App.css'
 import { Theme } from '@radix-ui/themes';
-import { Header, MyApp } from './copmponents';
+import { ChatModal, Header, MyApp } from './copmponents';
 
 function App() {
 
@@ -11,6 +11,7 @@ function App() {
     <Theme accentColor="indigo">
       <Header />
       <MyApp />
+      <ChatModal />
     </Theme>
   )
 }
